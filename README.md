@@ -1,3 +1,3 @@
 # coursera-ML
-These are my solutions to the ML course on Coursera by Andrew Ng
+These are my solutions to the ML course on Coursera by Andrew Ng.   
 Beware !!! Spoilers Ahead ...
