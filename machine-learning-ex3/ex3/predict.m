@@ -22,11 +22,12 @@ p = zeros(size(X, 1), 1);
 %
 
 
-
-
-
-
-
+a1 = [ones(rows(X),1) X];
+z2 = a1 * Theta1';
+a2 = [ones(rows(sigmoid(z2)),1) sigmoid(z2)];
+z3 = a2 * Theta2';
+a3 = sigmoid(z3);
+[val, p] = max(a3, [], 2);
 
 
 % =========================================================================
